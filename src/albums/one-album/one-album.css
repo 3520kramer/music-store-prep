@@ -1,0 +1,38 @@
+#view-album{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#album-img{
+  width: 80%;
+}
+
+#album-wrapper a{
+  text-decoration: none;
+  color: var(--colorTextPrimary);
+}
+
+.album-track-list a{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  flex: 1;
+}
+
+.album-track-list li{
+  list-style-type: none;
+}
+
+.album-track-list img{
+  width: 35px;
+}
+
+#album-track-section p{
+  flex-grow: 4;
+}

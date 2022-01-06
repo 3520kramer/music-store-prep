@@ -1,0 +1,7 @@
+.sign-in-section{
+  display: flex;
+}
+
+.sign-in-section form{
+  margin:auto;
+}
