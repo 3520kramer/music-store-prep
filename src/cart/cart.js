@@ -27,7 +27,7 @@ $(document).ready(async function () {
   $.ajax({
     url: `${TRACKS_ENDPOINT}?ids=${res}`,
     type: "GET",
-    headers: HEADERS,
+    // headers: HEADERS,
     success: function (response) {
       cart = response;
       console.log("cart", cart);
