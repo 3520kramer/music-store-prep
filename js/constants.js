@@ -1,6 +1,6 @@
 /* INTERNAL ROUTES */
-export const ROOT_URL = "/exam/music-store";
-// export const ROOT_URL = "";
+// export const ROOT_URL = "/examprep/music-store"; // local
+export const ROOT_URL = ""; // heroku
 
 export const TRACKS_ROUTE = ROOT_URL + "";
 export const VIEW_TRACK_ROUTE = "";
@@ -39,8 +39,8 @@ export const CART_SESSION_ROUTE = ROOT_URL + "/src/session/cart.php";
 export const CUSTOMER_SESSION_ROUTE = ROOT_URL + "/src/session/customer.php";
 
 /* "EXTERNAL" API ENDPOINTS */
-export const API_ROOT_URL = "/exam/music-store-api";
-// export const API_ROOT_URL = "https://music-store-api-webdev.herokuapp.com";
+// export const API_ROOT_URL = "/examprep/music-store-api"; // local
+export const API_ROOT_URL = "https://music-store-api-webdev.herokuapp.com"; // heroku
 
 export const TRACKS_ENDPOINT = API_ROOT_URL + "/tracks";
 export const SIGN_IN_CUSTOMER_ENDPOINT = API_ROOT_URL + "/auth/customer";
