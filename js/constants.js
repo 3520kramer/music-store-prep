@@ -40,7 +40,7 @@ export const CUSTOMER_SESSION_ROUTE = ROOT_URL + "/src/session/customer.php";
 
 /* "EXTERNAL" API ENDPOINTS */
 // export const API_ROOT_URL = "/examprep/music-store-api"; // local
-export const API_ROOT_URL = "https://music-store-api-webdev.herokuapp.com"; // heroku
+export const API_ROOT_URL = "https://music-store-api-prep.herokuapp.com"; // heroku
 
 export const TRACKS_ENDPOINT = API_ROOT_URL + "/tracks";
 export const SIGN_IN_CUSTOMER_ENDPOINT = API_ROOT_URL + "/auth/customer";
@@ -61,5 +61,5 @@ export const TRASHCAN_IMG_PATH = ROOT_URL + "/images/close.png";
 const token = "";
 export const HEADERS = {
   Authorization: `Bearer ${localStorage.getItem("jwt")}`,
-  origin: API_ROOT_URL,
+  origin: "https://music-store-prep.herokuapp.com",
 };
