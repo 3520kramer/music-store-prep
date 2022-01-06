@@ -61,4 +61,5 @@ export const TRASHCAN_IMG_PATH = ROOT_URL + "/images/close.png";
 const token = "";
 export const HEADERS = {
   Authorization: `Bearer ${localStorage.getItem("jwt")}`,
+  origin: API_ROOT_URL,
 };
