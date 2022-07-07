@@ -28,6 +28,14 @@ function get_header(string $title, string $js_file, bool $is_admin_header = fals
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
     <script src="$js_path" type="module" defer></script>
+    <script type='text/javascript' src='https://s3-eu-west-1.amazonaws.com/queueit-test-static/script/queueclient.js'></script>
+    <script
+       data-queueit-c='olpetest'
+       type='text/javascript'
+       data-queueit-jsHost='https://queueit-test-company.s3-eu-west-1.amazonaws.com/'
+       data-queueit-nocacheReq= 'true'
+       src='https://s3-eu-west-1.amazonaws.com/queueit-test-static/script/queueconfigloader.js'>
+    </script>
     <link rel="stylesheet" href="$css">
     <title>$title</title>
     </head>
